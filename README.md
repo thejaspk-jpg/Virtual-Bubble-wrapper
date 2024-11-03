@@ -1,16 +1,16 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Virtual Bubble Wrapper 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Justice League
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Amit Panicker - College of Engineering Chengannur
+- Member 2: Thejas PK - College of Engineering Chengannur
+- Member 3: Kiran Pallathu - College of Engineering Chengannur
 
 ### Project Description
 Your virtual bubble wrap project is a fun, interactive game where users can immerse themselves in the simple joy of bubble-popping. Players start by choosing the number of bubbles they want to pop, adding a bit of strategy to the experience. Once they set their goal, a countdown timer begins, giving them a fixed amount of time to pop as many bubbles as they can within that limit. Every pop adds to their score, which is dynamically updated, allowing users to see their progress in real time.
@@ -42,50 +42,26 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2024-11-03 064836](https://github.com/user-attachments/assets/02f6aaf5-2108-44f6-8bd4-7bca21875110)
+start page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2024-11-03 064855](https://github.com/user-attachments/assets/2806affb-772e-428e-ad5a-c17df1791ced)
+game page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot 2024-11-03 064948](https://github.com/user-attachments/assets/35864867-c5bf-4281-a762-37f78b7dd1e8)
+score page
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Thejas PK: HTML,CSS,JS
+- Amit Panicker: CSS,JS,REACT
+- Kiran Pallathu: HTML,CSS
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
