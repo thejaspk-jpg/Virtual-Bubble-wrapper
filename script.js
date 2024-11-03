@@ -10,8 +10,8 @@ button.innerText = "START";
 button.id = "myButton";
 let count = 0;
 
-// Create audio element for the pop sound
-const popSound = new Audio('89526__cgeffex__blurp-bubble-pop1.mp3'); // Replace with the actual path to your pop sound file
+
+const popSound = new Audio('89526__cgeffex__blurp-bubble-pop1.mp3'); 
 
 button.addEventListener("click", () => {
     button.style.display = "none";
@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
     document.body.appendChild(button);
 });
 
-// Add styles for centering and button styling
+
 const style = document.createElement("style");
 style.innerHTML = `
     #myButton {
@@ -76,9 +76,9 @@ function start() {
         time.textContent = Time;
 
         if (Time == 0) {
-            clearInterval(countdown); // Stop the countdown when it reaches 0
-            time.textContent = "GAME OVER!"; // Optional message when time is up
-            container.innerHTML = ''; // Clear bubbles when time is up
+            clearInterval(countdown); 
+            time.textContent = "GAME OVER!"; 
+            container.innerHTML = ''; 
             button.textContent = "RETRY";
             button.style.display = 'block';
         }
@@ -88,27 +88,27 @@ function start() {
 }
 
 function load() {
-    container.innerHTML = ''; // Clear previous bubbles
+    container.innerHTML = ''; 
     for (let i = 0; i < 100; i++) {
         let text = Math.floor(Math.random() * 5 + 1);
         const element = document.createElement("div");
-        element.classList.add("bubble"); // Use a class for bubbles
+        element.classList.add("bubble"); 
         element.innerText = text;
         
-        // Add event listener for each bubble
+        
         element.addEventListener("click", () => {
             if (element.innerText === target.textContent) {
                 count += 1;
                 hit.textContent = count;
                 score.textContent = 10 * count;
                 
-                // Play pop sound
-                popSound.currentTime = 0; // Reset sound to the start
+              
+                popSound.currentTime = 0; 
                 popSound.play();
 
                 let Target = Math.floor(Math.random() * 5 + 1);
                 target.textContent = Target;
-                load(); // Reload bubbles
+                load(); 
             }
         });
 
